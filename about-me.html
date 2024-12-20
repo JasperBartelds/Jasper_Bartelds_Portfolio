@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Jasper Bartelds, showcasing skills in software development, music production, gym enthusiasm, and more.">
+    <meta name="keywords" content="Jasper Bartelds, Portfolio, Software Developer, Music Producer, jasperb, jasperbnl">
+    <meta name="author" content="Jasper Bartelds">
+    <title>Jasper Bartelds - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Src/website-icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-container">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                  <a href="about-me.html">About</a>
+                  <!-- <a href="#">Services</a>
+                  <a href="#">Clients</a>
+                  <a href="#">Contact</a> -->
+                </div>
+            </div>
+
+            <div class="item item1 nav">
+                <a href="index.html"><img src="Src/home-icon.png"></a>
+                <h1>-&nbsp;Portfolio&nbsp;-</h1>
+                <!-- <img id="catagory-icon" src="Src/catagory-icon.png"> -->
+                <span onclick="openNav()"><img src="Src/catagory-icon.png"></span>
+            </div>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span id="close-popup" class="close-button">&times;</span>
+                    <h2>Coming soon!</h2>
+                    <p>Currently working on the main page!</p>
+                </div>
+            </div>
+
+            <div class="item item2">
+                <!-- Short about me -->
+                <h3>About me -</h3>
+                <hr>
+                <p id="bio-2"></p>
+            </div>
+
+            <div class="item item3">
+                <!-- Skill list -->
+                <h3>Passions -</h3>
+                <hr>
+                <li>Software Developer</li>
+                <li>Music Producer</li>
+                <li>Gym Enthusiast</li>
+                <li>Mountain Biker</li>
+            </div>
+            <div class="item item3">
+                <!-- Skill list -->
+                <h3>CV -</h3>
+                <hr>
+                <a href="Src/Jasper Bartelds CV.pdf" download><button>Download CV</button></a>
+            </div>
+            <div class="item item3">
+                <!-- Skill list -->
+                <h3>Contact -</h3>
+                <hr>
+                <li><a href="mailto:jw.bartelds@student.alfa-college.nl">jw.bartelds@student.alfa-college.nl</a></li>
+                <p>No other contact information available due to scammers/spammers</p>
+            </div>
+            <div class="item item8">
+                <h3>My music -</h3>
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/artist/2qxFUABswIa8UMEfG9wpLB?utm_source=generator&theme=0"
+                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Jasper Bartelds, showcasing skills in software development, music production, gym enthusiasm, and more.">
+    <meta name="keywords" content="Jasper Bartelds, Portfolio, Software Developer, Music Producer, jasperb, jasperbnl">
+    <meta name="author" content="Jasper Bartelds">
+    <title>Jasper Bartelds - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Src/website-icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-container">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                  <a href="about-me.html">About</a>
+                  <!-- <a href="#">Services</a>
+                  <a href="#">Clients</a>
+                  <a href="#">Contact</a> -->
+                </div>
+            </div>
+              
+            <div class="item item1 nav">
+                <a href="index.html"><img src="Src/home-icon.png"></a>
+                <h1>-&nbsp;Portfolio&nbsp;-</h1>
+                <!-- <img id="catagory-icon" src="Src/catagory-icon.png"> -->
+                <span onclick="openNav()"><img src="Src/catagory-icon.png"></span>
+            </div>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span id="close-popup" class="close-button">&times;</span>
+                    <h2>Coming soon!</h2>
+                    <p>Currently working on the main page!</p>
+                </div>
+            </div>
+
+            <div class="item item2">
+                <!-- Short about me -->
+                <h3>About me -</h3>
+                <hr>
+                <p id="bio"></p>
+                <a href="about-me.html"><button>Learn more about me!</button></a>
+            </div>
+
+            <div class="item item3">
+                <!-- Skill list -->
+                <h3>Passions -</h3>
+                <hr>
+                <li>Software Developer</li>
+                <li>Music Producer</li>
+                <li>Gym Enthusiast</li>
+                <li>Mountain Biker</li>
+            </div>
+
+            <div class="item item4 projects">
+                <!-- Blocks with code languages I know -->
+                <div class="skill skill1">HTML</div>
+                <div class="skill skill2">CSS</div>
+                <div class="skill skill3">JS</div>
+                <div class="skill skill4">DESIGN</div>
+                <div id="skill-popup" class="skill-popup">
+                    <div class="popup-content">
+                        <span id="close-skill-popup" class="close-skill-button">&times;</span>
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item item5">
+                <!-- My cv -->
+                <h3>CV - WIP</h3>
+                <hr>
+
+                <h4>Name: Jasper Bartelds</h4>
+                <h4>Age: 19</h4>
+                <h4>Country: Netherlands</h4>
+                <p><strong>Email:</strong> jw.bartelds@student.alfa-college.nl</p>
+
+                <h4>Education</h4>
+                <ul>
+                    <li>Software Developer, Alfa-college (2023 - present)</li>
+                </ul>
+                <hr>
+                <p style="margin-block: 10px; font-weight: bold;">Download cv for more information.</p>
+                <a href="Src/Jasper Bartelds CV.pdf" download><button>Download CV</button></a>
+            </div>
+
+            <div class="item item6">
+                <img src="Src/Profile-Picture.png" alt="">
+            </div>
+
+            <!-- <div class="item item7">
+                <h3>Projects</h3>
+                <span class="projects">
+                    <img style="height: 100px;" src="Src/Projects/Login_Page.png" alt="Login page">
+                    <img style="height: 100px;" src="Src/Projects/Contact_Page.png" alt="Contact page">
+                    <img style="height: 100px;" src="Src/Projects/School_Project.png" alt="School project">
+                    <img style="height: 100px;" src="Src/Projects/Discord_Bot_Page.png" alt="Discord_Bot page">
+                    <img style="height: 100px;" src="Src/Projects/Grid_Container_Design.png" alt="Grid container testing">
+                    <img style="height: 100px;" src="Src/Projects/3 monitors.jpg" alt="My setup">
+                </span>
+            </div> -->
+            <div class="item item7 projects-item">
+                <div class="wrapper">
+                    <div class="project project1">
+                        <img style="height: 100px;" src="Src/Projects/Login_Page.png" alt="Login page">
+                    </div>
+                    <div class="project project2">
+                        <img style="height: 100px;" src="Src/Projects/3 monitors.jpg" alt="Setup_project">
+                    </div>
+                    <div class="project project3">
+                        <img style="height: 100px;" src="Src/Projects/Discord_Bot_Page.png" alt="Discord_bot_website">
+                    </div>
+                    <div class="project project4">
+                        <img style="height: 100px;" src="Src/Projects/Grid_Container_Design.png"
+                            alt="Grid_container_project">
+                    </div>
+                    <div class="project project5">
+                        <img style="height: 100px;" src="Src/Projects/School_Project.png" alt="School_project">
+                    </div>
+                    <div class="project project6">
+                        <img style="height: 100px;" src="Src/Projects/Contact_Page.png" alt="Contact_page">
+                    </div>
+                    <div class="project project7">
+                        <img style="height: 100px;" src="Src/Projects/Portfolio_design_remake.png"
+                            alt="Portfolio_design">
+                    </div>
+                    <div class="project project8">
+                        <img style="height: 100px;" src="Src/Projects/Card_design.png" alt="Card_design">
+                    </div>
+
+                </div>
+            </div>
+            
+            
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
